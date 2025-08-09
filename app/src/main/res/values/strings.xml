@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Climbing Grades Conversion</string>
+    <string name="select_system">Select System</string>
+    <string name="input_grade">Input Grade</string>
+    <string name="output_system">Output System</string>
+    <string name="sport_boulder">Sport / Boulder</string>
+    <string name="convert">Convert</string>
+    <string name="result">Result</string>
+</resources>

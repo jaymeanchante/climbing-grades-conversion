@@ -1,0 +1,9 @@
+# Sample conversion table (inputSystem,grade,outputSystem,convertedGrade)
+French,5a,UIAA,6
+French,5b,UIAA,6+
+French,5c,UIAA,7-
+YDS,5.10a,French,6a
+YDS,5.10b,French,6b
+British,4a,French,5c
+British,4b,French,6a
+# Add more entries as needed
