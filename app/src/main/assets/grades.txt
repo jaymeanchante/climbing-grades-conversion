@@ -269,8 +269,6 @@ Ewbank (Aus/NZ),36,American,5.15a
 Ewbank (Aus/NZ),37,American,5.15b
 Ewbank (Aus/NZ),38,American,5.15c
 Ewbank (Aus/NZ),39,American,5.15d
-
-
 American,3,Ewbank (SA),1
 American,4,Ewbank (SA),2
 American,5.0,Ewbank (SA),4
@@ -307,13 +305,11 @@ American,5.15a,Ewbank (SA),38
 American,5.15b,Ewbank (SA),39
 American,5.15c,Ewbank (SA),40
 American,5.15d,Ewbank (SA),41
-
-
 Ewbank (SA),1,American,3
 Ewbank (SA),2,American,4
 Ewbank (SA),3,American,5.0
 Ewbank (SA),4,American,5.0
-EEwbank (SA),10,American,5.4wbank (SA),5,American,5.1
+Ewbank (SA),5,American,5.1
 Ewbank (SA),6,American,5.1
 Ewbank (SA),7,American,5.2
 Ewbank (SA),8,American,5.3
@@ -325,12 +321,12 @@ Ewbank (SA),13,American,5.6
 Ewbank (SA),14,American,5.7
 Ewbank (SA),15,American,5.7
 Ewbank (SA),16,American,5.8
+Ewbank (SA),17,American,5.9
 Ewbank (SA),18,American,5.9
 Ewbank (SA),19,American,5.10a
 Ewbank (SA),20,American,5.10b
 Ewbank (SA),21,American,5.10c
 Ewbank (SA),22,American,5.10d
-Ewbank (SA),22,American,5.11a
 Ewbank (SA),23,American,5.11b
 Ewbank (SA),24,American,5.11c
 Ewbank (SA),25,American,5.11d
@@ -350,3 +346,69 @@ Ewbank (SA),38,American,5.15a
 Ewbank (SA),39,American,5.15b
 Ewbank (SA),40,American,5.15c
 Ewbank (SA),41,American,5.15d
+American,3,Brazilian,I
+American,4,Brazilian,I
+American,5.0,Brazilian,I sup
+American,5.1,Brazilian,II
+American,5.2,Brazilian,II sup
+American,5.3,Brazilian,II sup
+American,5.4,Brazilian,III
+American,5.5,Brazilian,III sup
+American,5.6,Brazilian,IV
+American,5.7,Brazilian,IV
+American,5.8,Brazilian,IV sup
+American,5.9,Brazilian,V
+American,5.10a,Brazilian,V
+American,5.10b,Brazilian,V sup
+American,5.10c,Brazilian,VI
+American,5.10d,Brazilian,VI sup
+American,5.11a,Brazilian,7a
+American,5.11b,Brazilian,7b
+American,5.11c,Brazilian,7c
+American,5.11d,Brazilian,7c
+American,5.12a,Brazilian,8a
+American,5.12b,Brazilian,8b
+American,5.12c,Brazilian,8c
+American,5.12d,Brazilian,9a
+American,5.13a,Brazilian,9b
+American,5.13b,Brazilian,9c
+American,5.13c,Brazilian,10a
+American,5.13d,Brazilian,10b
+American,5.14a,Brazilian,10c
+American,5.14b,Brazilian,11a
+American,5.14c,Brazilian,11b
+American,5.14d,Brazilian,11c
+American,5.15a,Brazilian,12a
+American,5.15b,Brazilian,12b
+American,5.15c,Brazilian,12c
+American,5.15d,Brazilian,13a
+Brazilian,I,American,4
+Brazilian,I sup,American,5.0
+Brazilian,II,American,5.1
+Brazilian,II sup,American,5.2
+Brazilian,III,American,5.4
+Brazilian,IV,American,5.6
+Brazilian,IV sup,American,5.8
+Brazilian,V,American,5.9
+Brazilian,V sup,American,5.10b
+Brazilian,VI,American,5.10c
+Brazilian,VI sup,American,5.10d
+Brazilian,7a,American,5.11a
+Brazilian,7b,American,5.11b
+Brazilian,7c,American,5.11c
+Brazilian,8a,American,5.12a
+Brazilian,8b,American,5.12b
+Brazilian,8c,American,5.12c
+Brazilian,9a,American,5.12d
+Brazilian,9b,American,5.13a
+Brazilian,9c,American,5.13b
+Brazilian,10a,American,5.13c
+Brazilian,10b,American,5.13d
+Brazilian,10c,American,5.14a
+Brazilian,11a,American,5.14b
+Brazilian,11b,American,5.14c
+Brazilian,11c,American,5.14d
+Brazilian,12a,American,5.15a
+Brazilian,12b,American,5.15b
+Brazilian,12c,American,5.15c
+Brazilian,13a,American,5.15d
