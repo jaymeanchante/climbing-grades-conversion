@@ -5,49 +5,68 @@
     android:padding="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
 
-    <Spinner
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Climbing Grade Conversion"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <Switch
+            android:id="@+id/switchSportBoulder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sport_boulder"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+<Spinner
         android:id="@+id/spinnerInputSystem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:prompt="@string/select_system"
-        android:layout_marginBottom="12dp"/>
+        android:layout_marginBottom="16dp"/>
 
-    <EditText
+<EditText
         android:id="@+id/editTextGrade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/input_grade"
         android:inputType="text"
-        android:layout_marginBottom="12dp"/>
+        android:textSize="17sp"
+        android:layout_marginBottom="16dp"/>
 
-    <Spinner
+<Spinner
         android:id="@+id/spinnerOutputSystem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:prompt="@string/output_system"
-        android:layout_marginBottom="12dp"/>
+        android:layout_marginBottom="16dp"/>
 
-    <Switch
-        android:id="@+id/switchSportBoulder"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/sport_boulder"
-        android:layout_marginBottom="12dp"/>
 
     <Button
         android:id="@+id/buttonConvert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/convert"
-        android:layout_marginBottom="12dp"/>
+        android:textSize="17sp"
+        android:layout_marginBottom="16dp"/>
 
     <TextView
         android:id="@+id/textViewResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/result"
-        android:textSize="22sp"
+        android:textSize="26sp"
         android:paddingTop="16dp"
-        android:layout_marginBottom="12dp"/>
+        android:layout_marginBottom="16dp"/>
 </LinearLayout>
