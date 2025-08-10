@@ -1,6 +1,8 @@
 package com.example.climbinggradesconversion
 
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
@@ -19,10 +21,40 @@ class MainActivity : AppCompatActivity() {
         val buttonConvert = findViewById<Button>(R.id.buttonConvert)
         val textResult = findViewById<TextView>(R.id.textViewResult)
 
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, systems)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spinnerInput.adapter = adapter
-        spinnerOutput.adapter = adapter
+        // Load pairs from assets/pairs.txt
+        val pairLines = assets.open("pairs.txt").bufferedReader().readLines()
+            .filter { it.isNotBlank() && !it.startsWith("#") }
+        val pairMap = mutableMapOf<String, MutableList<String>>()
+        for (line in pairLines) {
+            val parts = line.split(",")
+            if (parts.size != 2) continue
+            val input = parts[0].trim()
+            val output = parts[1].trim()
+            pairMap.getOrPut(input) { mutableListOf() }.add(output)
+        }
+        val inputSystems = pairMap.keys.toList()
+        val inputAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, inputSystems)
+        inputAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinnerInput.adapter = inputAdapter
+
+        // Initialize output spinner based on first input system
+        var currentOutputs = pairMap[inputSystems.firstOrNull() ?: ""] ?: listOf()
+        var outputAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, currentOutputs)
+        outputAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinnerOutput.adapter = outputAdapter
+
+        // Update output spinner when input selection changes
+        spinnerInput.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>, view: View?, position: Int, id: Long) {
+                val selectedInput = inputSystems[position]
+                val outputs = pairMap[selectedInput] ?: listOf()
+                outputAdapter = ArrayAdapter(this@MainActivity, android.R.layout.simple_spinner_item, outputs)
+                outputAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+                spinnerOutput.adapter = outputAdapter
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>) {}
+        }
 
         buttonConvert.setOnClickListener {
             val inputSystem = spinnerInput.selectedItem as String
