@@ -38,6 +38,15 @@ class MainActivity : AppCompatActivity() {
             val result = convertGrade(inputSystem, grade, outputSystem, isBoulder)
             textResult.text = result
         }
+
+        // Swap button to exchange selected input and output systems
+        val buttonSwap = findViewById<Button>(R.id.buttonSwap)
+        buttonSwap.setOnClickListener {
+            val inputPos = spinnerInput.selectedItemPosition
+            val outputPos = spinnerOutput.selectedItemPosition
+            spinnerInput.setSelection(outputPos)
+            spinnerOutput.setSelection(inputPos)
+        }
     }
 
     private fun convertGrade(
