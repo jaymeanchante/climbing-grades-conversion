@@ -1,0 +1,13 @@
+# Available pairs table (inputSystem,outputSystem)
+American,French
+French,American
+American,UIAA
+UIAA,American
+American,Saxon
+Saxon,American
+American,Ewbank (Aus/NZ)
+Ewbank (Aus/NZ),American
+American,Ewbank (SA)
+Ewbank (SA),American
+American,Brazilian
+Brazilian,American

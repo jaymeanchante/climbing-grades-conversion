@@ -1,9 +1,352 @@
 # Sample conversion table (inputSystem,grade,outputSystem,convertedGrade)
-French,5a,UIAA,6
-French,5b,UIAA,6+
-French,5c,UIAA,7-
-YDS,5.10a,French,6a
-YDS,5.10b,French,6b
-British,4a,French,5c
-British,4b,French,6a
-# Add more entries as needed
+American,3,French,1
+American,4,French,1
+American,5.0,French,1
+American,5.1,French,2
+American,5.2,French,2
+American,5.3,French,3
+American,5.4,French,4a
+American,5.5,French,4b
+American,5.6,French,4c
+American,5.7,French,5a
+American,5.8,French,5b
+American,5.9,French,5c
+American,5.10a,French,6a
+American,5.10b,French,6a+
+American,5.10c,French,6b
+American,5.10d,French,6b+
+American,5.11a,French,6c
+American,5.11b,French,6c+
+American,5.11c,French,6c+
+American,5.11d,French,7a
+American,5.12a,French,7a+
+American,5.12b,French,7b
+American,5.12c,French,7b+
+American,5.12d,French,7c
+American,5.13a,French,7c+
+American,5.13b,French,8a
+American,5.13c,French,8a+
+American,5.13d,French,8b
+American,5.14a,French,8b+
+American,5.14b,French,8c
+American,5.14c,French,8c+
+American,5.14d,French,9a
+American,5.15a,French,9a+
+American,5.15b,French,9b
+American,5.15c,French,9b+
+American,5.15d,French,9c
+French,1,American,4
+French,2,American,5.1
+French,3,American,5.3
+French,4a,American,5.4
+French,4b,American,5.5
+French,4c,American,5.6
+French,5a,American,5.7
+French,5b,American,5.8
+French,5c,American,5.9
+French,6a,American,5.10a
+French,6a+,American,5.10b
+French,6b,American,5.10c
+French,6b+,American,5.10d
+French,6c,American,5.11b
+French,6c+,American,5.11c
+French,7a,American,5.11d
+French,7a+,American,5.12a
+French,7b,American,5.12b
+French,7b+,American,5.12c
+French,7c,American,5.12d
+French,7c+,American,5.13a
+French,8a,American,5.13b
+French,8a+,American,5.13c
+French,8b,American,5.13d
+French,8b+,American,5.14a
+French,8c,American,5.14b
+French,8c+,American,5.14c
+French,9a,American,5.14d
+French,9a+,American,5.15a
+French,9b,American,5.15b
+French,9b+,American,5.15c
+French,9c,American,5.15d
+American,3,UIAA,I
+American,4,UIAA,I
+American,5.0,UIAA,I
+American,5.1,UIAA,II
+American,5.2,UIAA,II
+American,5.3,UIAA,III
+American,5.4,UIAA,IV
+American,5.5,UIAA,IV+
+American,5.6,UIAA,V
+American,5.7,UIAA,V+
+American,5.8,UIAA,VI-
+American,5.9,UIAA,VI
+American,5.10a,UIAA,VI+
+American,5.10b,UIAA,VII-
+American,5.10c,UIAA,VII
+American,5.10d,UIAA,VII+
+American,5.11a,UIAA,VII+
+American,5.11b,UIAA,VIII-
+American,5.11c,UIAA,VIII-
+American,5.11d,UIAA,VIII
+American,5.12a,UIAA,VIII+
+American,5.12b,UIAA,VIII+
+American,5.12c,UIAA,IX-
+American,5.12d,UIAA,IX
+American,5.13a,UIAA,IX+
+American,5.13b,UIAA,X-
+American,5.13c,UIAA,X-
+American,5.13d,UIAA,X
+American,5.14a,UIAA,X+
+American,5.14b,UIAA,XI-
+American,5.14c,UIAA,XI
+American,5.14d,UIAA,XI+
+American,5.15a,UIAA,XII-
+American,5.15b,UIAA,XII-
+American,5.15c,UIAA,XII
+American,5.15d,UIAA,XII+
+UIAA,I,American,4
+UIAA,II,American,5.1
+UIAA,III,American,5.3
+UIAA,IV,American,5.4
+UIAA,IV+,American,5.5
+UIAA,V-,American,5.5
+UIAA,V,American,5.6
+UIAA,V+,American,5.7
+UIAA,VI-,American,5.8
+UIAA,VI,American,5.9
+UIAA,VI+,American,5.10a
+UIAA,VII-,American,5.10b
+UIAA,VII,American,5.10c
+UIAA,VII+,American,5.10d
+UIAA,VIII-,American,5.11b
+UIAA,VIII,American,5.11d
+UIAA,VIII+,American,5.12a
+UIAA,IX-,American,5.12c
+UIAA,IX,American,5.12d
+UIAA,IX+,American,5.13a
+UIAA,X-,American,5.13c
+UIAA,X,American,5.13d
+UIAA,X+,American,5.14a
+UIAA,XI-,American,5.14b
+UIAA,XI,American,5.14c
+UIAA,XI+,American,5.14d
+UIAA,XII-,American,5.15b
+UIAA,XII,American,5.15c
+UIAA,XII+,American,5.15d
+American,3,Saxon,I
+American,4,Saxon,I
+American,5.0,Saxon,I
+American,5.1,Saxon,II
+American,5.2,Saxon,II
+American,5.3,Saxon,III
+American,5.4,Saxon,IV
+American,5.5,Saxon,V
+American,5.6,Saxon,VI
+American,5.7,Saxon,VI
+American,5.8,Saxon,VIIa
+American,5.9,Saxon,VIIb
+American,5.10a,Saxon,VIIc
+American,5.10b,Saxon,VIIc
+American,5.10c,Saxon,VIIIa
+American,5.10d,Saxon,VIIIb
+American,5.11a,Saxon,VIIIc
+American,5.11b,Saxon,VIIIc
+American,5.11c,Saxon,IXa
+American,5.11d,Saxon,IXb
+American,5.12a,Saxon,IXc
+American,5.12b,Saxon,IXc
+American,5.12c,Saxon,Xa
+American,5.12d,Saxon,Xb
+American,5.13a,Saxon,Xc
+American,5.13b,Saxon,XIa
+American,5.13c,Saxon,XIa
+American,5.13d,Saxon,XIb
+American,5.14a,Saxon,XIc
+American,5.14b,Saxon,XIIa
+American,5.14c,Saxon,XIIb
+American,5.14d,Saxon,XIIc
+American,5.15a,Saxon,XIIIa
+American,5.15b,Saxon,XIIIa
+American,5.15c,Saxon,XIIIb
+American,5.15d,Saxon,XIIIc
+Saxon,I,American,4
+Saxon,II,American,5.1
+Saxon,III,American,5.3
+Saxon,IV,American,5.4
+Saxon,V,American,5.5
+Saxon,VI,American,5.6
+Saxon,VIIa,American,5.8
+Saxon,VIIb,American,5.9
+Saxon,VIIc,American,5.10a
+Saxon,VIIIa,American,5.10c
+Saxon,VIIIb,American,5.10d
+Saxon,VIIIc,American,5.11a
+Saxon,IXa,American,5.11c
+Saxon,IXb,American,5.11d
+Saxon,IXc,American,5.12a
+Saxon,Xa,American,5.12c
+Saxon,Xb,American,5.12d
+Saxon,Xc,American,5.13a
+Saxon,XIa,American,5.13c
+Saxon,XIb,American,5.13d
+Saxon,XIc,American,5.14a
+Saxon,XIIa,American,5.14b
+Saxon,XIIb,American,5.14c
+Saxon,XIIc,American,5.14d
+Saxon,XIIIa,American,5.15b
+Saxon,XIIIb,American,5.15c
+Saxon,XIIIc,American,5.15d
+American,3,Ewbank (Aus/NZ),1
+American,4,Ewbank (Aus/NZ),2
+American,5.0,Ewbank (Aus/NZ),4
+American,5.1,Ewbank (Aus/NZ),6
+American,5.2,Ewbank (Aus/NZ),7
+American,5.3,Ewbank (Aus/NZ),9
+American,5.4,Ewbank (Aus/NZ),10
+American,5.5,Ewbank (Aus/NZ),12
+American,5.6,Ewbank (Aus/NZ),13
+American,5.7,Ewbank (Aus/NZ),15
+American,5.8,Ewbank (Aus/NZ),16
+American,5.9,Ewbank (Aus/NZ),17
+American,5.10a,Ewbank (Aus/NZ),18
+American,5.10b,Ewbank (Aus/NZ),19
+American,5.10c,Ewbank (Aus/NZ),20
+American,5.10d,Ewbank (Aus/NZ),20
+American,5.11a,Ewbank (Aus/NZ),21
+American,5.11b,Ewbank (Aus/NZ),22
+American,5.11c,Ewbank (Aus/NZ),23
+American,5.11d,Ewbank (Aus/NZ),23
+American,5.12a,Ewbank (Aus/NZ),24
+American,5.12b,Ewbank (Aus/NZ),25
+American,5.12c,Ewbank (Aus/NZ),26
+American,5.12d,Ewbank (Aus/NZ),27
+American,5.13a,Ewbank (Aus/NZ),28
+American,5.13b,Ewbank (Aus/NZ),29
+American,5.13c,Ewbank (Aus/NZ),30
+American,5.13d,Ewbank (Aus/NZ),31
+American,5.14a,Ewbank (Aus/NZ),32
+American,5.14b,Ewbank (Aus/NZ),33
+American,5.14c,Ewbank (Aus/NZ),34
+American,5.14d,Ewbank (Aus/NZ),35
+American,5.15a,Ewbank (Aus/NZ),36
+American,5.15b,Ewbank (Aus/NZ),37
+American,5.15c,Ewbank (Aus/NZ),38
+American,5.15d,Ewbank (Aus/NZ),39
+Ewbank (Aus/NZ),1,American,3
+Ewbank (Aus/NZ),2,American,4
+Ewbank (Aus/NZ),3,American,5.0
+Ewbank (Aus/NZ),4,American,5.0
+Ewbank (Aus/NZ),5,American,5.1
+Ewbank (Aus/NZ),6,American,5.1
+Ewbank (Aus/NZ),7,American,5.2
+Ewbank (Aus/NZ),9,American,5.3
+Ewbank (Aus/NZ),10,American,5.4
+Ewbank (Aus/NZ),11,American,5.5
+Ewbank (Aus/NZ),12,American,5.5
+Ewbank (Aus/NZ),13,American,5.6
+Ewbank (Aus/NZ),14,American,5.7
+Ewbank (Aus/NZ),15,American,5.7
+Ewbank (Aus/NZ),16,American,5.8
+Ewbank (Aus/NZ),17,American,5.9
+Ewbank (Aus/NZ),18,American,5.10a
+Ewbank (Aus/NZ),19,American,5.10b
+Ewbank (Aus/NZ),20,American,5.10c
+Ewbank (Aus/NZ),21,American,5.11a
+Ewbank (Aus/NZ),22,American,5.11b
+Ewbank (Aus/NZ),23,American,5.11c
+Ewbank (Aus/NZ),24,American,5.12a
+Ewbank (Aus/NZ),25,American,5.12b
+Ewbank (Aus/NZ),26,American,5.12c
+Ewbank (Aus/NZ),27,American,5.12d
+Ewbank (Aus/NZ),28,American,5.13a
+Ewbank (Aus/NZ),29,American,5.13b
+Ewbank (Aus/NZ),30,American,5.13c
+Ewbank (Aus/NZ),31,American,5.13d
+Ewbank (Aus/NZ),32,American,5.14a
+Ewbank (Aus/NZ),33,American,5.14b
+Ewbank (Aus/NZ),34,American,5.14c
+Ewbank (Aus/NZ),35,American,5.14d
+Ewbank (Aus/NZ),36,American,5.15a
+Ewbank (Aus/NZ),37,American,5.15b
+Ewbank (Aus/NZ),38,American,5.15c
+Ewbank (Aus/NZ),39,American,5.15d
+
+
+American,3,Ewbank (SA),1
+American,4,Ewbank (SA),2
+American,5.0,Ewbank (SA),4
+American,5.1,Ewbank (SA),6
+American,5.2,Ewbank (SA),7
+American,5.3,Ewbank (SA),9
+American,5.4,Ewbank (SA),10
+American,5.5,Ewbank (SA),12
+American,5.6,Ewbank (SA),13
+American,5.7,Ewbank (SA),15
+American,5.8,Ewbank (SA),16
+American,5.9,Ewbank (SA),18
+American,5.10a,Ewbank (SA),19
+American,5.10b,Ewbank (SA),20
+American,5.10c,Ewbank (SA),21
+American,5.10d,Ewbank (SA),22
+American,5.11a,Ewbank (SA),22
+American,5.11b,Ewbank (SA),23
+American,5.11c,Ewbank (SA),24
+American,5.11d,Ewbank (SA),25
+American,5.12a,Ewbank (SA),26
+American,5.12b,Ewbank (SA),27
+American,5.12c,Ewbank (SA),28
+American,5.12d,Ewbank (SA),29
+American,5.13a,Ewbank (SA),30
+American,5.13b,Ewbank (SA),31
+American,5.13c,Ewbank (SA),32
+American,5.13d,Ewbank (SA),33
+American,5.14a,Ewbank (SA),34
+American,5.14b,Ewbank (SA),35
+American,5.14c,Ewbank (SA),36
+American,5.14d,Ewbank (SA),37
+American,5.15a,Ewbank (SA),38
+American,5.15b,Ewbank (SA),39
+American,5.15c,Ewbank (SA),40
+American,5.15d,Ewbank (SA),41
+
+
+Ewbank (SA),1,American,3
+Ewbank (SA),2,American,4
+Ewbank (SA),3,American,5.0
+Ewbank (SA),4,American,5.0
+EEwbank (SA),10,American,5.4wbank (SA),5,American,5.1
+Ewbank (SA),6,American,5.1
+Ewbank (SA),7,American,5.2
+Ewbank (SA),8,American,5.3
+Ewbank (SA),9,American,5.3
+Ewbank (SA),10,American,5.4
+Ewbank (SA),11,American,5.5
+Ewbank (SA),12,American,5.5
+Ewbank (SA),13,American,5.6
+Ewbank (SA),14,American,5.7
+Ewbank (SA),15,American,5.7
+Ewbank (SA),16,American,5.8
+Ewbank (SA),18,American,5.9
+Ewbank (SA),19,American,5.10a
+Ewbank (SA),20,American,5.10b
+Ewbank (SA),21,American,5.10c
+Ewbank (SA),22,American,5.10d
+Ewbank (SA),22,American,5.11a
+Ewbank (SA),23,American,5.11b
+Ewbank (SA),24,American,5.11c
+Ewbank (SA),25,American,5.11d
+Ewbank (SA),26,American,5.12a
+Ewbank (SA),27,American,5.12b
+Ewbank (SA),28,American,5.12c
+Ewbank (SA),29,American,5.12d
+Ewbank (SA),30,American,5.13a
+Ewbank (SA),31,American,5.13b
+Ewbank (SA),32,American,5.13c
+Ewbank (SA),33,American,5.13d
+Ewbank (SA),34,American,5.14a
+Ewbank (SA),35,American,5.14b
+Ewbank (SA),36,American,5.14c
+Ewbank (SA),37,American,5.14d
+Ewbank (SA),38,American,5.15a
+Ewbank (SA),39,American,5.15b
+Ewbank (SA),40,American,5.15c
+Ewbank (SA),41,American,5.15d
