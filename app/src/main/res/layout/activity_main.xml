@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="36dp">
 
         <TextView
             android:id="@+id/textViewTitle"
@@ -18,14 +19,14 @@
             android:layout_weight="1"
             android:text="Climbing Grade Conversion"
             android:textStyle="bold"
-            android:textSize="24sp"/>
+            android:textSize="26sp"/>
 
         <Switch
             android:id="@+id/switchSportBoulder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sport_boulder"
-            android:textSize="17sp"/>
+            android:textSize="18sp"/>
 
 </LinearLayout>
 
@@ -33,7 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="12dp">
 
     <Spinner
         android:id="@+id/spinnerInputSystem"
@@ -64,8 +66,8 @@
         android:layout_height="wrap_content"
         android:hint="@string/input_grade"
         android:inputType="text"
-        android:textSize="17sp"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
 
 
     <Button
@@ -73,15 +75,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/convert"
-        android:textSize="17sp"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
 
     <TextView
         android:id="@+id/textViewResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/result"
-        android:textSize="26sp"
+        android:textSize="30sp"
         android:paddingTop="16dp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="24dp"/>
 </LinearLayout>
